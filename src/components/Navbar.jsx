@@ -24,11 +24,8 @@ const Navbar = () => {
                     <img
                         src={logo}
                         alt="logo"
-                        className="w-9 h-9 object-contain"
+                        className="w-170 h-34 object-contain"
                     />
-                    <p className="text-white text-[18px] font-bold cursor-pointer flex">
-                        Harry &nbsp; <span className="sm:block hidden"> | Front End Developer</span>
-                    </p>
                 </Link>
                 <ul className="list-none hidden sm:flex flex-row gap-10">
                     {navLinks.map((link) => (
@@ -36,9 +33,9 @@ const Navbar = () => {
                             key={link.id}
                             className={`${
                                 active === link.title
-                                    ? "text-white"
-                                    : "text-secondary"
-                            } hover:text-white text-[18px] font-medium cursor-pointer`}
+                                    ? "text-secondary"
+                                    : "text-white"
+                            } hover:text-secondary text-[18px] font-medium cursor-pointer`}
                             onClick={() => setActive(link.title)}
                         >
                             <a href={`#${link.id}`}>{link.title}</a>
@@ -65,8 +62,8 @@ const Navbar = () => {
                                     key={link.id}
                                     className={`${
                                         active === link.title
-                                            ? "text-white"
-                                            : "text-secondary"
+                                            ? "text-secondary"
+                                            : "text-white"
                                     } font-poppins font-medium cursor-pointer text-[16px]`}
                                     onClick={() => {
                                         setActive(link.title);

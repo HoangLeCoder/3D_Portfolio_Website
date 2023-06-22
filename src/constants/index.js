@@ -27,12 +27,16 @@ import {
   
   export const navLinks = [
     {
-      id: "about",
-      title: "About",
+      id: "intro",
+      title: "Giới thiệu",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "services",
+      title: "Dịch vụ",
+    },
+    {
+      id: "customer",
+      title: "Khách hàng",
     },
     {
       id: "contact",
@@ -42,20 +46,32 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Oracle cho doanh nghiệp",
       icon: web,
+      details_1:"Oracle EBS",
+      details_2:"Oracle Fusion Cloud",
+      details_3:"Oracle Integration",
     },
     {
-      title: "React Native Developer",
+      title: "Phân tích dữ liệu nâng cao",
       icon: mobile,
+      details_1:"ETL",
+      details_2:"Data Warehouse",
+      details_3:"Analysis Visualization",
     },
     {
-      title: "Backend Developer",
+      title: "Phát triển ứng dụng hệ thống",
       icon: backend,
+      details_1:"Desktop App",
+      details_2:"Web App",
+      details_3:"Mobile App & Game",
     },
     {
-      title: "Content Creator",
+      title: "Cung cấp nhân sự IT",
       icon: creator,
+      details_1:"IT Resource Provider",
+      details_2:"ODC",
+      details_3:"Build IT Team",
     },
   ];
   
