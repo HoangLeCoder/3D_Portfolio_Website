@@ -55,7 +55,7 @@ const About = () => {
                 {/* <p className={styles.sectionSubText}>Introduction</p> */}
                 <h2
                     className={`${styles.sectionHeadText} text-white text-center`}
-                    id="services"
+
                 >
                     VỀ <span className="blue-text-gradient">DỊCH VỤ</span>
                 </h2>
@@ -73,7 +73,7 @@ const About = () => {
                 thêm nhiều dịch vụ để giải quyết bài toán cho khách hàng
             </motion.p>
 
-            <div className="mt-20 flex flex-wrap gap-10">
+            <div className="mt-20 flex flex-wrap gap-10 items-center">
                 {services.map((service, index) => (
                     <ServiceCard
                         key={service.title}
