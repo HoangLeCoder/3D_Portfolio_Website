@@ -23,8 +23,15 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
+import corsair from "./company/corsair.png";
 import tesla from "./company/tesla.png";
+import shinyama from "./company/shinyama.png"
+import napco from "./company/napco.png"
+import nata from "./company/nata.png"
+import cvs from "./company/cvs.png"
+import thanhbac from "./company/thanhbac.png"
+import ruouPhuLe from "./company/ruouPhuLe.png"
+import oceanedu from "./company/oceanedu.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,10 +59,19 @@ export {
   tailwind,
   typescript,
   threejs,
+
   meta,
   shopify,
-  starbucks,
+  corsair,
+  shinyama,
+  napco,
   tesla,
+  nata,
+  cvs,
+  thanhbac,
+  ruouPhuLe,
+  oceanedu,
+
   carrent,
   jobit,
   tripguide,
