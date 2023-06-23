@@ -262,19 +262,19 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+        "Chất lượng trong từng sản phẩm và dịch vụ.",
+      name: "Công ty SHINYAMA",
       designation: "COO",
       company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: shinyama,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "Kỹ năng giao tiếp, trao đổi nội dung công việc dễ hiểu.",
+      name: "Công ty NAPCO CONSTRUCTOR",
       designation: "CTO",
       company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: napco,
     },
   ];
   
