@@ -14,17 +14,14 @@ const Hero = () => {
                 </div>
 
                 <div>
-                    <h1 className={`${styles.heroHeadText} text-white`}>
+                    <h1 className={`${styles.heroHeadText} text-white mt-5`}>
                         {/* Hi, I'm <span className="text-[#6ECEEB]">Harry</span> */}
                         <span className="blue-text-gradient">HIPTECH</span> SOLUTION
                     </h1>
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
                         {" "}
-                        Với vai trò là Nhà cung cấp giải pháp công nghệ thông
-                        tin, <br className="sm:block hidden" /> HIPTECH đã từng
-                        bước thực hiện sứ mệnh “Ứng dụng công nghệ{" "}
-                        <br className="sm:block hidden" /> thông tin giải quyết
-                        vấn đề của cuộc sống”
+                        Nhà cung cấp giải pháp công nghệ thông
+                        tin<br className="sm:block hidden" /> hàng đầu Việt Nam{" "}
                     </p>
                 </div>
             </div>
