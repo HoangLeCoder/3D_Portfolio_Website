@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,19 +20,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import hiptech from "./tech/hiptech.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import corsair from "./company/corsair.png";
+import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import shinyama from "./company/shinyama.png"
-import napco from "./company/napco.png"
-import nata from "./company/nata.png"
-import cvs from "./company/cvs.png"
-import thanhbac from "./company/thanhbac.png"
-import ruouPhuLe from "./company/ruouPhuLe.png"
-import oceanedu from "./company/oceanedu.png"
+import slide from "./company/9slide.png"
+import design from "./company/design.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -47,6 +41,7 @@ export {
   github,
   menu,
   close,
+
   css,
   docker,
   figma,
@@ -60,20 +55,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  hiptech,
-
 
   meta,
   shopify,
-  corsair,
-  shinyama,
-  napco,
+  starbucks,
   tesla,
-  nata,
-  cvs,
-  thanhbac,
-  ruouPhuLe,
-  oceanedu,
+  slide,
+  design,
 
   carrent,
   jobit,

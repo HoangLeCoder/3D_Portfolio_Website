@@ -1,347 +1,341 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    hiptech,
+// About
+  mobile,
+  backend,
+  creator,
+  web,
+// Skills
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+// Works
+  meta,
+  starbucks,
+  tesla,
+  shopify,
+  slide,
+  design,
 
-    meta,
-    corsair,
-    tesla,
-    shinyama,
-    napco,
-    shopify,
-    nata,
-    cvs,
-    thanhbac,
-    ruouPhuLe,
-    oceanedu,
+  carrent,
+  jobit,
+  tripguide,
+  threejs,
+} from "../assets";
 
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-  } from "../assets";
-  
-  export const navLinks = [
-    {
-      id: "intro",
-      title: "Giới thiệu",
-    },
-    {
-      id: "about",
-      title: "Dịch vụ",
-    },
-    {
-      id: "customer",
-      title: "Khách hàng",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
-  ];
-  
-  const services = [
-    {
-      title: "Oracle cho doanh nghiệp",
-      icon: web,
-      details_1:"Oracle EBS",
-      details_2:"Oracle Fusion Cloud",
-      details_3:"Oracle Integration",
-    },
-    {
-      title: "Phân tích dữ liệu nâng cao",
-      icon: mobile,
-      details_1:"ETL",
-      details_2:"Data Warehouse",
-      details_3:"Analysis Visualization",
-    },
-    {
-      title: "Phát triển ứng dụng hệ thống",
-      icon: backend,
-      details_1:"Desktop App",
-      details_2:"Web App",
-      details_3:"Mobile App & Game",
-    },
-    {
-      title: "Cung cấp nhân sự IT",
-      icon: creator,
-      details_1:"IT Resource Provider",
-      details_2:"ODC",
-      details_3:"Build IT Team",
-    },
-  ];
-  
-  const technologies = [
-    // {
-    //   name: "HTML 5",
-    //   icon: html,
-    // },
-    // {
-    //   name: "CSS 3",
-    //   icon: css,
-    // },
-    // {
-    //   name: "JavaScript",
-    //   icon: javascript,
-    // },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
-    // {
-    //   name: "React JS",
-    //   icon: reactjs,
-    // },
-    // {
-    //   name: "Redux Toolkit",
-    //   icon: redux,
-    // },
-    // {
-    //   name: "Tailwind CSS",
-    //   icon: tailwind,
-    // },
-    // {
-    //   name: "Node JS",
-    //   icon: nodejs,
-    // },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
-    // {
-    //   name: "Three JS",
-    //   icon: threejs,
-    // },
-    // {
-    //   name: "git",
-    //   icon: git,
-    // },
-    // {
-    //   name: "figma",
-    //   icon: figma,
-    // },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
-    {
-        name: "hiptech",
-        icon: hiptech,
-    },
-  ];
-  
-  const experiences = [
-    {
-      title: "Corsair Gaming Inc (US)",
-      company_name: "Co-operate",
-      icon: corsair,
-      iconBg: "#FFFFFF",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Shinyama (Japan)",
-      company_name: "Customer",
-      icon: shinyama,
-      iconBg: "#FFFFFF",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "NAPCO Constructor (Japan)",
-      company_name: "Customer",
-      icon: napco,
-      iconBg: "#E6E6E6",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Nata Vietnam Technology",
-      company_name: "Customer",
-      icon: nata,
-      iconBg: "#FFFFFF",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Computer Vision Vietnam",
-      company_name: "Customer",
-      icon: cvs,
-      iconBg: "#FFFFFF",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Công ty CPTM & DV Thành Bắc",
-      company_name: "Customer",
-      icon: thanhbac,
-      iconBg: "#FFFFFF",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Rượu Phú Lễ",
-      company_name: "Customer",
-      icon: ruouPhuLe,
-      iconBg: "#FFFFFF",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Hệ thống Anh ngữ Quốc tế OceanEdu",
-      company_name: "Customer",
-      icon: oceanedu,
-      iconBg: "#FFFFFF",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "Văn hóa, thái độ của nhân viên được đánh giá cao.",
-      name: "Công ty CORSAIR",
-      designation: "CFO",
-      company: "Acme Co",
-      image: corsair,
-    },
-    {
-      testimonial:
-        "Chất lượng trong từng sản phẩm và dịch vụ.",
-      name: "Công ty SHINYAMA",
-      designation: "COO",
-      company: "DEF Corp",
-      image: shinyama,
-    },
-    {
-      testimonial:
-        "Kỹ năng giao tiếp, trao đổi nội dung công việc dễ hiểu.",
-      name: "Công ty NAPCO CONSTRUCTOR",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: napco,
-    },
-  ];
-  
-  const projects = [
-    {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-  ];
-  
-  export { services, technologies, experiences, testimonials, projects };
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "work",
+    title: "Work",
+  },
+  {
+    id: "skill",
+    title: "Skills",
+  },
+  {
+    id: "project",
+    title: "Projects",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
+
+const services = [
+  {
+    title: "Graphics Designer",
+    icon: web,
+  },
+  {
+    title: "UI/UX Designer",
+    icon: mobile,
+  },
+  {
+    title: "Reactjs Developer",
+    icon: backend,
+  },
+  {
+    title: "Web Developer",
+    icon: creator,
+  },
+];
+
+const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+];
+
+const experiences = [
+  {
+    title: "Powerpoint Freelance Designer",
+    company_name: "9slide Fanpage",
+    icon: slide,
+    iconBg: "#d8180a",
+    date: "October 2020 - March 2021",
+    points: [
+      "Receive orders from customers on facebook and zalo groups to create presentation slides. ",
+      "Consulting content layout for customers to create an attractive presentation for viewers. ",
+      "Use powerpoint to create media publications such as slides, posters, banners and short videos. ",
+    ],
+  },
+  {
+    title: "Freelance Graphic Designer",
+    company_name: "Social Media",
+    icon: design,
+    iconBg: "#A9D2FE",
+    date: "March 2021 - July 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Web Developer",
+    company_name: "Shopify",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Jan 2022 - Jan 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    company_name: "Meta",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+];
+
+const testimonials = [
+  {
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    name: "Sara Lee",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+];
+
+const projects = [
+  {
+    name: "Car Rent",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Job IT",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects };

@@ -1,4 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
+
 import {
     About,
     Contact,
@@ -20,13 +21,13 @@ const App = () => {
                     <Hero />
                 </div>
                 <About />
-                <Experience/>
-                {/* <Tech /> */}
-                {/* <Works /> */}
+                <Experience />
+                <Tech />
+                <Works />
                 <Feedbacks />
                 <div className="relative z-0">
                     <Contact />
-                    <StarsCanvas/>
+                    <StarsCanvas />
                 </div>
             </div>
         </BrowserRouter>

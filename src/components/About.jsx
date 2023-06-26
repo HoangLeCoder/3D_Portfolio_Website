@@ -7,18 +7,11 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ServiceCard = ({
-    index,
-    title,
-    icon,
-    details_1,
-    details_2,
-    details_3,
-}) => (
+const ServiceCard = ({ index, title, icon }) => (
     <Tilt className="xs:w-[250px] w-full">
         <motion.div
             variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-            className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+            className="w-full primary-gradient p-[1px] rounded-[20px] shadow-card"
         >
             <div
                 options={{
@@ -31,18 +24,12 @@ const ServiceCard = ({
                 <img
                     src={icon}
                     alt="web-development"
-                    className="w-192 h-176 object-contain mb-2 mt-4"
+                    className="w-[100px] h-[100px] object-contain"
                 />
 
-                <h3 className="text-white text-[20px] font-bold text-center mt-3">
+                <h3 className="text-white text-[20px] font-bold text-center">
                     {title}
                 </h3>
-
-                <div className="flex flex-col items-center mt-5 font-thin text-[#ccc]">
-                    <p>{details_1}</p>
-                    <p>{details_2}</p>
-                    <p>{details_3}</p>
-                </div>
             </div>
         </motion.div>
     </Tilt>
@@ -52,28 +39,30 @@ const About = () => {
     return (
         <>
             <motion.div variants={textVariant()}>
-                {/* <p className={styles.sectionSubText}>Introduction</p> */}
-                <h2
-                    className={`${styles.sectionHeadText} text-white text-center`}
-
+                <p
+                    className={`${styles.sectionSubText} text-center text-white`}
                 >
-                    VỀ <span className="blue-text-gradient">DỊCH VỤ</span>
+                    Introduction
+                </p>
+                <h2
+                    className={`${styles.sectionHeadText} text-center text-[#0BCEAF]`}
+                >
+                    About Me
                 </h2>
             </motion.div>
 
             <motion.p
                 variants={fadeIn("", "", 0.1, 1)}
-                className="mt-4 text-white text-[17px] max-w-3xl text-center m-auto leading-[30px]"
+                className="mt-4 text-white text-[17px] max-w-4xl leading-[30px] text-center m-auto"
             >
-                Đến nay, qua hơn 3 năm không ngừng nỗ lực và phát triển, khi
-                nguồn nhân lực đã vững mạnh và chất lượng; ngoài các dịch vụ
-                trên,{" "}
-                <span className="blue-text-gradient font-bold">HIPTECH</span> đã
-                mở rộng lĩnh vực hoạt động, nhận được nhiều dự án và cung cấp
-                thêm nhiều dịch vụ để giải quyết bài toán cho khách hàng
+                Hi! My real name is Hoang. I decided to look for new challenges
+                in both coding and designing fields although my university major
+                is Computer Science. With the knowledge and abilities I have, I
+                am ready to do my best. I believe I could portray my passion
+                through my work.
             </motion.p>
 
-            <div className="mt-20 flex flex-wrap gap-10 items-center">
+            <div className="mt-20 flex flex-wrap gap-10">
                 {services.map((service, index) => (
                     <ServiceCard
                         key={service.title}
