@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import drive from "./drive.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -31,6 +32,11 @@ import iu from "./company/IU.png"
 import iec from "./company/iec.png"
 import flib from "./company/flib.png"
 
+import slideCer from "./certificate/9slide.jpg"
+import hackathon from "./certificate/hackathon.jpg"
+import nhanvan from "./certificate/NNVKN.jpg"
+import ux from "./certificate/ux.jpg"
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -44,6 +50,7 @@ export {
   github,
   menu,
   close,
+  drive,
 
   css,
   docker,
@@ -68,6 +75,11 @@ export {
   iu,
   iec,
   flib,
+
+  slideCer,
+  hackathon,
+  nhanvan,
+  ux,
 
   carrent,
   jobit,

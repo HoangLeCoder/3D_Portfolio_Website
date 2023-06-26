@@ -60,6 +60,17 @@
     background: -webkit-linear-gradient(-90.13deg, #0bceaf 1.9%, #7fffec 97.5%);
 }
 
+.glass-effect {
+    background: rgba(255,255,255,.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+}
+
+.glass-effect:hover {
+    transform: scale(1.04) rotate(1deg);
+}
+
 .green-text-gradient {
     background: #27ffdb; /* fallback for old browsers */
     background: -webkit-linear-gradient(
@@ -108,6 +119,11 @@
     -webkit-text-fill-color: transparent;
 }
 /* --------------------------------------------------------- */
+
+.drop-shadow {
+    box-shadow: #00cea8;
+}
+
 
 button {
     display: flex;
