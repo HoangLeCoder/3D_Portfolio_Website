@@ -54,7 +54,18 @@ const ExperienceCard = ({ experience }) => {
                     </li>
                 ))}
             </ul>
-            <a className="button" href={experience.link} id="btn">View Mores...</a>
+            <button class="cta">
+                <a class="hover-underline-animation" href={experience.link}>
+                    {" "}
+                    More details{" "}
+                </a>
+                <path
+                    transform="translate(20)"
+                    d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                    data-name="Path 10"
+                    id="Path_10"
+                ></path>
+            </button>
         </VerticalTimelineElement>
     );
 };
