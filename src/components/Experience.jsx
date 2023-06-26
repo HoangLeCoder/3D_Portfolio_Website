@@ -55,17 +55,24 @@ const ExperienceCard = ({ experience }) => {
                 ))}
             </ul>
             <button class="cta">
-                <a class="hover-underline-animation" href={experience.link}>
-                    {" "}
-                    More details{" "}
-                </a>
-                <path
-                    transform="translate(20)"
-                    d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
-                    data-name="Path 10"
-                    id="Path_10"
-                ></path>
+                <a class="hover-underline-animation" href={experience.link}> More details </a>
+                <svg
+                    viewBox="0 0 46 16"
+                    height="10"
+                    width="0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    id="arrow-horizontal"
+                    fill="#7FFFEB"
+                >
+                    <path
+                        transform="translate(30)"
+                        d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                        data-name="Path 10"
+                        id="Path_10"
+                    ></path>
+                </svg>
             </button>
+
         </VerticalTimelineElement>
     );
 };
@@ -74,10 +81,10 @@ const Experience = () => {
     return (
         <>
             <motion.div variants={textVariant()}>
-                <p className={`${styles.sectionSubText} text-center`}>
+                <p className={`${styles.sectionSubText} text-center text-white`}>
                     What I have done so far
                 </p>
-                <h2 className={`${styles.sectionHeadText} text-center`}>
+                <h2 className={`${styles.sectionHeadText} text-center text-[#0BCEAF]`}>
                     Work Experience.
                 </h2>
             </motion.div>

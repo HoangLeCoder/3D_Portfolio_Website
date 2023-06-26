@@ -27,6 +27,9 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import slide from "./company/9slide.png"
 import design from "./company/design.png"
+import iu from "./company/IU.png"
+import iec from "./company/iec.png"
+import flib from "./company/flib.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -62,6 +65,9 @@ export {
   tesla,
   slide,
   design,
+  iu,
+  iec,
+  flib,
 
   carrent,
   jobit,

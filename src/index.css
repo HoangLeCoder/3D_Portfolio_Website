@@ -109,11 +109,10 @@
 }
 /* --------------------------------------------------------- */
 
-button{
+button {
     display: flex;
     margin-top: 20px;
     align-items: center;
-    
 }
 .cta {
     border: none;
@@ -124,11 +123,30 @@ button{
     padding-bottom: 7px;
     letter-spacing: 2px;
     font-size: 14px;
+    padding-right: 35px;
+}
+svg {
+    position: relative;
+    left: -20px;
+    top: -3px;
+}
+
+.cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active svg {
+    transform: scale(0.9);
 }
 
 .hover-underline-animation {
     position: relative;
-    color: #7FFFEB;
+    color: #7fffeb;
     padding-bottom: 20px;
 }
 
@@ -140,7 +158,7 @@ button{
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #7FFFEB;
+    background-color: #7fffeb;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
