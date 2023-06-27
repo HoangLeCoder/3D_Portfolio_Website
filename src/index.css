@@ -61,8 +61,8 @@
 }
 
 .glass-effect {
-    background: rgba(255,255,255,.05);
-    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(10px);
     border-radius: 8px;
 }
@@ -124,7 +124,6 @@
     box-shadow: #00cea8;
 }
 
-
 button {
     display: flex;
     margin-top: 20px;
@@ -182,6 +181,33 @@ svg {
 .cta:hover .hover-underline-animation:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+.hero_btn {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 800;
+    color: #fff;
+    background-color: none;
+    border: #00EFD1 solid 3px ;
+    border-radius: 25px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.hero_btn:hover {
+    background-color: #00EFD1;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.hero_btn:active {
+    transform: translateY(-1px);
 }
 
 /* --------------------------------------------------------------------------------- */

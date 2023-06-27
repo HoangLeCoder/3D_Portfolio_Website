@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import heroimg from "./heroimg.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -52,6 +53,7 @@ export {
   menu,
   close,
   drive,
+  heroimg,
 
   css,
   docker,
