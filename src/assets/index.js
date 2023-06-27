@@ -31,6 +31,7 @@ import design from "./company/design.png"
 import iu from "./company/IU.png"
 import iec from "./company/iec.png"
 import flib from "./company/flib.png"
+import hiptech from "./company/hiptech.png"
 
 import slideCer from "./certificate/9slide.jpg"
 import hackathon from "./certificate/hackathon.jpg"
@@ -75,6 +76,7 @@ export {
   iu,
   iec,
   flib,
+  hiptech,
 
   slideCer,
   hackathon,

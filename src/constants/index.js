@@ -27,6 +27,7 @@ import {
     iu,
     iec,
     flib,
+    hiptech,
     // Certificate
     slideCer,
     hackathon,
@@ -39,6 +40,7 @@ import {
     tripguide,
     threejs,
 } from "../assets";
+
 
 export const navLinks = [
     {
@@ -189,7 +191,7 @@ const experiences = [
             "Fanpage Admin: design social posts and plan events related to the occasion and come up with a suitable design theme to attract web viewers. ",
             "Design Application: Adobe Illustrator - Photoshop - After Effects.",
             "Design Slide Education Materials for Teaching purposes using Powerpoint and Canva.",
-            "Design Company landing page using Figma",
+            "Design Company landing page using Figma. ",
         ],
     },
     {
@@ -204,6 +206,17 @@ const experiences = [
             "Design User Interface (UI) Mobile version of Flib project by Sketching, Wireframing and Prototyping",
             "Participate in the discussion of the development direction of the project and the feasibility of the technology",
             "Achievement: Third Price of Người Nhân Văn Khởi Nghiệp mùa 2 held by University of Social Sciences and Humanities",
+        ],
+    },
+    {
+        title: "Intern Front End Developer",
+        company_name: "Hiptech",
+        icon: hiptech,
+        iconBg: "#FFFFFF",
+        date: "Jun 2023 - Now",
+        link: "",
+        points: [
+            "Reactjs - Taiwindcss",
         ],
     },
 ];
