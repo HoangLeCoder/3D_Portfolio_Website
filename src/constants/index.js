@@ -34,6 +34,11 @@ import {
     nhanvan,
     ux,
 
+    // Projects
+    Besnik,
+    Lesson,
+    Shine,
+    Pet,
 
     carrent,
     jobit,
@@ -288,130 +293,80 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Besnik Agency",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "This project is part of the exercises of F8's HTML CSS Pro course aimed at practicing coding",
         tags: [
             {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
+                name: "html",
+                color: "html-color",
             },
             {
                 name: "css",
-                color: "pink-text-gradient",
+                color: "css-color",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: Besnik,
+        github_link: "https://github.com/HoangLeCoder/Besnik-landingpage",
+        figma_link: "https://www.figma.com/file/ckp1STLk2PtCbOZUxBzv5e/Landing-page?type=design&node-id=0-1&mode=design",
+        web_link: "https://hoanglecoder.github.io/Besnik-landingpage",
     },
     {
-        name: "Trip Guide",
+        name: "Lesson Edu",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "This project is part of the exercises of F8's HTML CSS Pro course aimed at practicing coding",
         tags: [
             {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
+                name: "html",
+                color: "html-color",
             },
             {
                 name: "css",
-                color: "pink-text-gradient",
+                color: "css-color",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: Lesson,
+        github_link: "https://github.com/HoangLeCoder/Lesson-landingpage",
+        figma_link: "https://www.figma.com/file/ckp1STLk2PtCbOZUxBzv5e/Landing-page?type=design&node-id=5-2&mode=design",
+        web_link: "https://hoanglecoder.github.io/Lesson-landingpage/",
     },
     {
-        name: "Trip Guide",
+        name: "Shine smile",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "This project is part of the exercises of F8's HTML CSS Pro course aimed at practicing coding",
         tags: [
             {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
+                name: "html",
+                color: "html-color",
             },
             {
                 name: "css",
-                color: "pink-text-gradient",
+                color: "css-color",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: Shine,
+        github_link: "https://github.com/HoangLeCoder/Dental-landingpage",
+        figma_link: "https://www.figma.com/file/ckp1STLk2PtCbOZUxBzv5e/Landing-page?type=design&node-id=41-2&mode=design",
+        web_link: "https://hoanglecoder.github.io/Dental-landingpage/",
     },
     {
-        name: "Trip Guide",
+        name: "Lucy Pet",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "This project is part of the exercises of F8's HTML CSS Pro course aimed at practicing coding",
         tags: [
             {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
+                name: "html",
+                color: "html-color",
             },
             {
                 name: "css",
-                color: "pink-text-gradient",
+                color: "css-color",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: Pet,
+        github_link: "https://github.com/HoangLeCoder/Lucy-Pet-Care-Landingpage",
+        figma_link: "https://www.figma.com/file/ckp1STLk2PtCbOZUxBzv5e/Landing-page?type=design&node-id=131-2&mode=design",
+        web_link: "https://hoanglecoder.github.io/Lucy-Pet-Care-Landingpage/",
     },
 ];
 

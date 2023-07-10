@@ -39,6 +39,8 @@ import hackathon from "./certificate/hackathon.jpg"
 import nhanvan from "./certificate/NNVKN.jpg"
 import ux from "./certificate/ux.jpg"
 
+import { Besnik, Lesson, Shine, Pet } from "./Project";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -79,6 +81,11 @@ export {
   iec,
   flib,
   hiptech,
+
+  Besnik,
+  Lesson,
+  Shine,
+  Pet,
 
   slideCer,
   hackathon,

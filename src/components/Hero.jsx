@@ -40,15 +40,15 @@ const Hero = () => {
             and Front End Developer.
           </p>
         </div>
-      <button className="hero_btn font-bold mt-10">Download CV</button>
+      <button className="hero_btn font-bold mt-10"><a download={"Le Cao Nhat Hoang_CV.pdf"}>Download CV</a></button>
       </motion.div>
-
+      <motion.div variants={textVariant()}>
       <div>
         <img src={heroimg} alt="hero image" className="w-[500px]" />
       </div>
-      
+      </motion.div>
 
-      <div className='absolute w-full bottom-32 flex justify-center items-center'>
+      {/* <div className='absolute w-full bottom-32 flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-white flex justify-center items-start p-2'>
             <motion.div
@@ -64,7 +64,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };
